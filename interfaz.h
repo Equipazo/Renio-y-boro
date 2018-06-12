@@ -3,6 +3,10 @@
 #include<QFileDialog>
 #include<QLabel>
 #include <QMainWindow>
+#include <cstdio>
+#include <cstdlib>
+#include <iostream>
+#include<string.h>
 
 namespace Ui {
 class interfaz;
@@ -25,6 +29,7 @@ private slots:
 
 
     void on_pushButton_2_clicked();
+
 };
 
 #endif // INTERFAZ_H
